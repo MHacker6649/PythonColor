@@ -1,13 +1,14 @@
 ### Description
 Just Small Module For Python User
 Customize Text and Style
-### Usage
+ You can Enter Color in Any Case Upper Lower or mix
+###
  ## Code
     from Color import Color
     clr = Color.getANSI("RED","BOLD","BLACK")
     print(f"{clr} Hello World")
 
-### Attributes List
+###
  ## Text Color
     Black
     Red
