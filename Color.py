@@ -54,5 +54,5 @@ class Color:
             print(f"{e} Invalid Style at '{ts}' ")
         try:
             return f"\033[{tcc};{tsc};{bcc}m"
-        except Exception as e
+        except Exception as e:
             exit()
